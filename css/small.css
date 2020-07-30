@@ -139,7 +139,7 @@ input[type="search"] {
 .appMain {
   display: flex;
   flex-flow: row wrap;
-  padding: 0 20px;
+  padding: 10px 20px;
 }
 .book,
 .news,
@@ -147,7 +147,8 @@ input[type="search"] {
 .favorite,
 .twitter {
   width: 100%;
-  height: 10vh;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 /* 모바일 푸터 */
 .appFooter {
